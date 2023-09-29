@@ -16,7 +16,11 @@ namespace MyClass.Model
 
         public int OrderID { get; set; }
 
+        public int ProductID { get; set; }
+
         public decimal Price { get; set; }
+
+        public int Qty { get; set; }
 
         public decimal Amount { get; set; }
     }

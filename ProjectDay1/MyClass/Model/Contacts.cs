@@ -14,7 +14,7 @@ namespace MyClass.Model
         [Key]
         public int Id { get; set; }
 
-        public int UserID { get; set; }
+        public int UserId { get; set; }
 
         public string Fullname { get; set; }
 
@@ -28,9 +28,7 @@ namespace MyClass.Model
         [Required]
         public string Detail { get; set; }
 
-        public int CreateBy { get; set; }
-
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public int UpdateBy { get; set; }
 

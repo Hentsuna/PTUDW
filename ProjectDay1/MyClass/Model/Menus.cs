@@ -29,9 +29,9 @@ namespace MyClass.Model
 
         public int? Order { get; set; }
 
-        public int CreatBy { get; set; }
+        public int CreatedBy { get; set; }
 
-        public DateTime CreatAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public int UpdateBy { get; set; }
 

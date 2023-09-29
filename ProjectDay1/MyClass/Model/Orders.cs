@@ -22,11 +22,12 @@ namespace MyClass.Model
         [Required]
         public string ReceiverPhone { get; set; }
 
+        [Required]
+        public string ReceiverEmail { get; set; }
+
         public string Note { get; set; }
 
-        public int CreateBy { get; set; }
-
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public int UpdateBy { get; set; }
 

@@ -19,7 +19,7 @@ namespace MyClass.Model
 
         public string Slug { get; set; }
 
-        public int? ParentID { get; set; }
+        public int? ParentId { get; set; }
 
         public int? Order { get; set; }
 
@@ -29,9 +29,9 @@ namespace MyClass.Model
         [Required]
         public string MetaKey { get; set; }
 
-        public int CreateBy { get; set; }
+        public int CreatedBy { get; set; }
 
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public int UpdateBy { get; set; }
 
