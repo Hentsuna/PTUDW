@@ -77,3 +77,10 @@ D:\PTUDW\ProjectDay1\ProjectDay1\obj\Debug\ProjectDay1.csproj.CoreCompileInputs.
 D:\PTUDW\ProjectDay1\ProjectDay1\obj\Debug\ProjectDay1.csproj.CopyComplete
 D:\PTUDW\ProjectDay1\ProjectDay1\obj\Debug\ProjectDay1.dll
 D:\PTUDW\ProjectDay1\ProjectDay1\obj\Debug\ProjectDay1.pdb
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\EntityFramework.dll
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\EntityFramework.SqlServer.dll
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\MyClass.dll
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\MyClass.pdb
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\MyClass.dll.config
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\EntityFramework.xml
+D:\PTUDW\ProjectDay1\ProjectDay1\bin\EntityFramework.SqlServer.xml
