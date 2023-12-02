@@ -84,7 +84,7 @@ namespace ProjectDay1.Areas.Admin.Controllers
                         string imgName = slug + img.FileName.Substring(img.FileName.LastIndexOf("."));
                         products.Image = imgName;
                         //upload hinh
-                        string PathDir = "~/Public/img/supplier";
+                        string PathDir = "~/Public/img/product";
                         string PathFile = Path.Combine(Server.MapPath(PathDir), imgName);
                         img.SaveAs(PathFile);
                     }
@@ -132,7 +132,7 @@ namespace ProjectDay1.Areas.Admin.Controllers
 
                 //xu ly cho phan upload hinh anh
                 var img = Request.Files["img"];//lay thong tin file
-                string PathDir = "~/Public/img/supplier";
+                string PathDir = "~/Public/img/product";
                 if (img.ContentLength != 0)
                 {
                     //Xu ly cho muc xoa hinh anh
@@ -163,6 +163,8 @@ namespace ProjectDay1.Areas.Admin.Controllers
                 TempData["message"] = new XMessage("success", "Cập nhật sản phẩm thành công");
                 return RedirectToAction("Index");
             }
+            ViewBag.ListCatID = new SelectList(categoriesDAO.getList("Index"), "Id", "Name");
+            ViewBag.ListSupID = new SelectList(productsDAO.getList("Index"), "Id", "Name");
             return View(products);
         }
 

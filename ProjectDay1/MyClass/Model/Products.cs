@@ -19,7 +19,7 @@ namespace MyClass.Model
         public int CatID { get; set; }
 
         [Required(ErrorMessage = "Tên sản phẩm không để trống")]
-        [Display(Name = "Tên sản pahamr")]
+        [Display(Name = "Tên sản phẩm")]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "tên nhà cung cấp không để trống")]
